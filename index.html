@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | Responsive Portfolio</title>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#">Omronnix Quicay</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <section class="section">
-      <div class="section__container">
-        <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">
-            I'm <span>Omronnix Quicay<br />a</span> Web Developer
-          </h1>
-          <p class="description">
-            Welcome to my web developer portfolio! I'm Omronnix Quicay, a skilled and
-            creative web developer with a passion for creating beautiful,
-            responsive, and user-friendly websites. I've worked on a variety of
-            web projects, ranging from personal blogs to e-commerce platforms.
-          </p>
-          <div class="action__btns">
-            <button class="hire__me">Hire Me</button>
-            <button class="portfolio">Portfolio</button>
-          </div>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span>omronnix@gmail.com</span>
+          <label>Username</label>
         </div>
-        <div class="image">
-          <img src="assets/profile.jpg" alt="profile" />
+        <div class="txt_field">
+          <input type="password" required>
+          <span>Quicay</span>
+          <label>Password</label>
         </div>
-      </div>
-    </section>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+
   </body>
 </html>
